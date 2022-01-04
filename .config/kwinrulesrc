@@ -1,0 +1,36 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Window settings for resolve
+clientmachine=localhost
+noborderrule=2
+types=1
+windowrole=mainwindow#1
+wmclass=resolve
+wmclassmatch=1
+
+[46f9c2d8-d3e2-4ca7-88fd-22ea3f744219]
+Description=Window settings for resolve
+clientmachine=localhost
+noborderrule=2
+titlematch=1
+types=1
+wmclass=resolve
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[dba3d7b0-8dba-4f94-9e93-c7b10b2feca5]
+Description=Window settings for konsole
+clientmachine=localhost
+size=836,684
+sizerule=3
+title=~ : bash — Konsole
+types=1
+windowrole=mainwindow#1
+windowrolematch=1
+wmclass=konsole
+wmclassmatch=1

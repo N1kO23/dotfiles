@@ -1,0 +1,10 @@
+[General]
+Radius=10
+Type=Rounded
+SquareAtScreenEdge=true
+FilterShadow=true
+Whitelist=
+Blacklist=
+SquareEdgesX=
+SquareEdgesY=
+SquircleRatio=1.0

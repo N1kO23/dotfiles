@@ -1,0 +1,72 @@
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAtsAAAIKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+StatusBar=Disabled
+eDP1 Height 1920x1080=522
+eDP1 Width 1920x1080=731
+eDP1 XPosition 1920x1080=29
+eDP1 YPosition 1920x1080=68
+
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[KFileDialog Settings]
+Recent Files[$e]=
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=16
+
+[KonsoleWindow]
+ShowMenuBarByDefault=false
+
+[MainWindow]
+HDMI-1-0 eDP1 Height 1920x1080=559
+HDMI-1-0 eDP1 Width 1920x1080=916
+HDMI-1-0 eDP1 XPosition 1920x1080=2285
+HDMI-1-0 eDP1 YPosition 1920x1080=340
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAtsAAAIKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 HDMI-1-0 Height 1280x1024=655
+eDP-1 HDMI-1-0 Height 1920x1080=768
+eDP-1 HDMI-1-0 Width 1280x1024=836
+eDP-1 HDMI-1-0 Width 1920x1080=893
+eDP-1 HDMI-1-0 XPosition 1280x1024=278
+eDP-1 HDMI-1-0 XPosition 1920x1080=2262
+eDP-1 HDMI-1-0 YPosition 1280x1024=297
+eDP-1 HDMI-1-0 YPosition 1920x1080=147
+eDP-1 HDMI-A-1 Height 1920x1080=527
+eDP-1 HDMI-A-1 Width 1920x1080=640
+eDP-1 Height 1920x1080=810
+eDP-1 Width 1920x1080=893
+eDP-1 XPosition 1920x1080=964
+eDP-1 YPosition 1920x1080=117
+eDP1 HDMI-1-0 Height 1280x1024=566
+eDP1 HDMI-1-0 Height 1920x1080=566
+eDP1 HDMI-1-0 Width 1280x1024=721
+eDP1 HDMI-1-0 Width 1920x1080=721
+eDP1 HDMI-1-0 XPosition 1280x1024=430
+eDP1 HDMI-1-0 XPosition 1920x1080=1415
+eDP1 HDMI-1-0 YPosition 1280x1024=216
+eDP1 HDMI-1-0 YPosition 1920x1080=226
+eDP1 Height 1920x1080=683
+eDP1 Width 1920x1080=858
+eDP1 XPosition 1920x1080=78
+eDP1 YPosition 1920x1080=311
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar sessionToolbar]
+IconSize=16
+
+[TabBar]
+NewTabButton=true
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Toolbar sessionToolbar]
+IconSize=16
+
+[UiSettings]
+ColorScheme=Default

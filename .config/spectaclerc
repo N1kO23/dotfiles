@@ -1,0 +1,11 @@
+[$Version]
+update_info=spectacle_newConfig.upd:spectacle-new-config,spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
+
+[General]
+clipboardGroup=PostScreenshotCopyImage
+showMagnifier=true
+
+[GuiConfig]
+captureMode=1
+cropRegion=1665,596,619,119
+window-position=1550,58
