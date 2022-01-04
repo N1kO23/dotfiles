@@ -192,7 +192,6 @@ source /usr/share/nvm/init-nvm.sh
 
 alias startSSHTunnels='/home/n1ko23/Scripts/startSSHTunnels.sh'
 alias stopSSHTunnels='/home/n1ko23/Scripts/stopSSHTunnels.sh'
-alias neofetch='neofetch --ascii_distro Arch'
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
