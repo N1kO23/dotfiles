@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Load bash profile
+source ~/.bash_profile
+
 [[ -f ~/.welcome_screen ]] && . ~/.welcome_screen
 
 _set_my_PS1() {
@@ -171,9 +174,6 @@ _Pacdiff() {
         done
     fi
 }
-
-# Load bash profile
-source ~/.bash_profile
 
 . "$HOME/.cargo/env"
 
