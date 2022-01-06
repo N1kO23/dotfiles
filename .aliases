@@ -3,7 +3,7 @@
 alias startSSHTunnels='/home/n1ko23/Scripts/startSSHTunnels.sh'
 alias stopSSHTunnels='/home/n1ko23/Scripts/stopSSHTunnels.sh'
 
-alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
+alias open='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 alias pacdiff=_Pacdiff
 
 alias ls='ls --color=auto'
