@@ -30,11 +30,6 @@ ShowInstallerIsoInfo() {
     fi
 }
 
-
-alias ls='ls --color=auto'
-alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
-alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
-
 [[ "$(whoami)" = "root" ]] && return
 
 [[ -z "$FUNCNEST" ]] && export FUNCNEST=100          # limits recursive functions, see 'man bash'
@@ -177,21 +172,10 @@ _Pacdiff() {
     fi
 }
 
-#------------------------------------------------------------
+# Load bash profile
+source ~/.bash_profile
 
-## Aliases for the functions above.
-## Uncomment an alias if you want to use it.
-##
-
-# alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
-# alias pacdiff=_Pacdiff
-################################################################################
-source /usr/share/nvm/init-nvm.sh
-source /usr/share/nvm/init-nvm.sh
 . "$HOME/.cargo/env"
 
-alias startSSHTunnels='/home/n1ko23/Scripts/startSSHTunnels.sh'
-alias stopSSHTunnels='/home/n1ko23/Scripts/stopSSHTunnels.sh'
-
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+source /usr/share/nvm/init-nvm.sh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
