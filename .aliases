@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-alias startSSHTunnels='/home/n1ko23/Scripts/startSSHTunnels.sh'
-alias stopSSHTunnels='/home/n1ko23/Scripts/stopSSHTunnels.sh'
+alias startSSHTunnels='/home/n1ko23/Scripts/startSSHTunnels.sh' # Starts the ssh tunnels to remote server
+alias stopSSHTunnels='/home/n1ko23/Scripts/stopSSHTunnels.sh'   # Closes the ssh tunnels to remote server
 
-alias open='_open_files_for_editing'     # 'ef' opens given file(s) for editing
+alias open='_open_files_for_editing'     # opens given file(s) for editing
 alias pacdiff=_Pacdiff
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto'       # gotta have them colors when doing ls :trollface:
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
