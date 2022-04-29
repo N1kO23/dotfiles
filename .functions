@@ -32,7 +32,7 @@ function dataurl() {
 function httpserver() {
 	local port="${1:-8000}";
 	sleep 1 && open "http://127.0.0.1:${port}/" &
-	python3 -m http.server $port;
+	python3 -m http.server --bind :: $port;
 }
 
 # `o` with no arguments opens the current directory, otherwise opens the given

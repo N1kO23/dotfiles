@@ -9,3 +9,14 @@ alias pacdiff=_Pacdiff
 alias ls='ls --color=auto'       # gotta have them colors when doing ls :trollface:
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+
+# To deal with bs systemctl commands
+alias ssr='sudo systemctl restart'
+alias ss='systemctl status'
+alias sst='sudo systemctl stop'
+alias sss='sudo systemctl start'
+alias sse='sudo systemctl enable'
+alias ssd='sudo systemctl disable'
+
+alias start2B2WTunnel='sudo systemctl start tunnel2b2t.service'
+alias stop2B2WTunnel='sudo systemctl stop tunnel2b2t.service'

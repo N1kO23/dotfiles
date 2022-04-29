@@ -39,8 +39,8 @@ ShowInstallerIsoInfo() {
 
 ## Use the up and down arrow keys for finding a command in history
 ## (you can write some initial letters of the command first).
-bind '"\e[A":history-search-backward'
-bind '"\e[B":history-search-forward'
+#bind '"\e[A":history-search-backward'
+#bind '"\e[B":history-search-forward'
 
 ################################################################################
 ## Some generally useful functions.
@@ -179,3 +179,6 @@ _Pacdiff() {
 
 source /usr/share/nvm/init-nvm.sh
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+pfetch
+export PATH="$PATH:$HOME/.spicetify"
